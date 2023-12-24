@@ -8,6 +8,8 @@ You get 10 attempts to guess and if right the Game Ends, then Start a New Game
 
 Same goes with the you LOSE!!
 
+### Play Here 👉 [Guess Number Game](https://guess-number-game-t.netlify.app/)
+
 ## What's used to make this?
 
 I used the tech stack of Web Development, consisting of HTML, CSS, JavaScript as core based to make.
