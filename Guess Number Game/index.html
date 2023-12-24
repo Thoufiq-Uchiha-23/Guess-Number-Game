@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guess It!!</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="intro">
+        <h1>Number Guessing Game</h1>
+      <p>Try and guess a random number between 1 and 100</p>
+      <p>You have 10 attempts to guess the right number</p>
+      <br />
+      </div>
+
+      <div class="container">
+        <form action="" class="form">
+          <label for="guessField" id="guess">Guess a number</label>
+          <input type="text" id="guessField" class="guessField" />
+          <input type="submit" id="subt" value="Submit Guess" />
+        </form>
+  
+        <div class="resultParas">
+          <p>Previuos Guesses: <span class="guesses"></span></p>
+          <p>Guesses Remaining: <span class="lastResult"></span></p>
+          <p class="lowOrHi"></p>
+        </div>
+      </div>
+    </main>
+    <script src="guess_number.js"></script>
+  </body>
+</html>
